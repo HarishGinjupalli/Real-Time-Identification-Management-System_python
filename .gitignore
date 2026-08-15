@@ -1,0 +1,22 @@
+# Environment variables (contains database connection settings)
+.env
+
+# Face image data and trained model - these are personal biometric
+# data and a per-machine trained model, not meant to be committed
+face_data/
+models/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Virtual environment folder
+venv/
+env/
+
+# VS Code settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
